@@ -8,21 +8,19 @@ Brand assets organized for stable GitHub + jsDelivr CDN usage.
 - `banners/`
 - `social/`
 - `backgrounds/`
-- `textures/`
 - `maps/`
-- `incoming/`
 
 ## CDN base URL
 Use this format:
 
-`https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@<ref>/<path>`
+`https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@<ref>/<path>`
 
 - `<ref>` can be `main` (quick updates) or a tag like `v1.0.0` (recommended for production).
 
 ## Example asset URLs
-- `https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@main/logos/marks/nt-logo-mark-gradient-v1.0.0.svg`
-- `https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@main/logos/marks/nt-logo-mark-gradient-on-black-v1.0.0.png`
-- `https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@main/social/nt-social-biweekly-report-01-v1.0.0.png`
+- `https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@main/logos/marks/nt-logo-mark-gradient-v1.0.0.svg`
+- `https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@main/logos/marks/nt-logo-mark-gradient-on-black-v1.0.0.png`
+- `https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@main/social/nt-social-biweekly-report-01-v1.0.0.png`
 
 ## HTML embed snippets
 
@@ -30,11 +28,11 @@ Use this format:
 ```html
 <picture>
   <source
-    srcset="https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@v1.0.0/logos/marks/nt-logo-mark-gradient-v1.0.0.svg"
+    srcset="https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@v1.0.0/logos/marks/nt-logo-mark-gradient-v1.0.0.svg"
     type="image/svg+xml"
   />
   <img
-    src="https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@v1.0.0/logos/marks/nt-logo-mark-gradient-on-black-v1.0.0.png"
+    src="https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@v1.0.0/logos/marks/nt-logo-mark-gradient-on-black-v1.0.0.png"
     alt="NT Logo"
     width="160"
     height="160"
@@ -47,7 +45,7 @@ Use this format:
 ### Wordmark image
 ```html
 <img
-  src="https://cdn.jsdelivr.net/gh/<username>/nt-design-assets@v1.0.0/logos/wordmarks/nt-wordmark-neutral-font1-white-v1.0.0.svg"
+  src="https://cdn.jsdelivr.net/gh/neutral-trade/design-assets@v1.0.0/logos/wordmarks/nt-wordmark-neutral-font1-white-v1.0.0.svg"
   alt="Neutral Wordmark"
   width="360"
   height="98"
